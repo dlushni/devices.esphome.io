@@ -35,7 +35,7 @@ be expected and will be ignored. Setting baud rate to 9600 will cause boot issue
 
 ## Basic configuration - TYWE3S / ESP8266 variant
 
-```yaml file=config-esp8266.yaml
+```yaml file=config.yaml
 ```
 ## Basic configuration - CB3S / BK7231N variant
 
