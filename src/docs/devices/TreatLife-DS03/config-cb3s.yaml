@@ -1,7 +1,7 @@
 substitutions:
   devicename: fan_switch
   friendly_name: Fan Switch
-  
+
 esphome:
   name: ${name}
   friendly_name: ${friendly_name}
@@ -42,7 +42,7 @@ fan:
     name: Fan
     switch_datapoint: 1
     speed_datapoint: 3
-    speed_count: 4 
+    speed_count: 4
 
 select:
   - platform: tuya
