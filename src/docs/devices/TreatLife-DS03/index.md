@@ -12,8 +12,8 @@ board:
 
 ## Notes
 
-Different revisions of this product may come with different types of Tuya WiFi modules (e.g TYWE3S, WB3S, CB3S). The 
-physical layout of these modules is very similar but they do have different GPIO naming schemas. There are also slight 
+Different revisions of this product may come with different types of Tuya WiFi modules (e.g TYWE3S, WB3S, CB3S). The
+physical layout of these modules is very similar but they do have different GPIO naming schemas. There are also slight
 differences in Tuya MCU data point configurations. Please pay close attention before flashing.
 
 This TuyaMCU requires a baud rate of 115200. This will generate a error in the log saying 9600 is requested. This is to
@@ -37,6 +37,7 @@ be expected and will be ignored. Setting baud rate to 9600 will cause boot issue
 
 ```yaml file=config.yaml
 ```
+
 ## Basic configuration - CB3S / BK7231N variant
 
 ```yaml file=config-cb3s.yaml
